@@ -17,7 +17,6 @@
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
-```
 <h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">KAMPANG ░ 🐨</a></b></h2>
 <br>
 <p align="center">
@@ -34,9 +33,9 @@
 
 ### Or Run on your terminal
 
-```
+
 wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
-```
+
 <br>
 
 ## How To Deploy 👷
