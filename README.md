@@ -62,7 +62,7 @@
 <br>
 
 ## How to setup Google Drive
-<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/ManusiaRakitan/Bot-Kampang/Kampang/userbot/resources/gd.png" alt="haa" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/ManusiaRakitan/Bot-Kampang/Kampang/userbot/resources/gd.png" alt="Click" width="210" height="34.45" /></a></p>
 
 ## Credits
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
