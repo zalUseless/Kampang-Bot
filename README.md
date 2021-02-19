@@ -29,16 +29,17 @@
 <br>
 <br>
 
-## Generate String Session
+## String Session
+**VAR ->** `STRING_SESSION`
+#### By HEROKU
+- [open your app](https://dashboard.heroku.com/apps/) then go to **more** -> **run console** and type `bash genStr` and click **run**.
+#### On REPL
+- [Generate on REPL Click](https://repl.it/@ManusiaRakitan/stringsession#README.md)
+### Read more
+<details>
+  <summary><b>Details and Guides</b></summary>
 
-### Or Run on your terminal
-
-
-wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
-
-<br>
-
-## How To Deploy 👷
+## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
 
 ```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
@@ -54,16 +55,14 @@ wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstr
   > Finally turn on the app and check the logs (settings -> view logs) enjoy :)
 ```
 
-## <p align="center">Deploy to Heroku Methods</p>
-
-
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Camel07/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-cyan?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
-
-<br>
+* DENGAN HEROKU:
+<p align="center">
+   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Kampang-Bot/tree/Kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
+<br>
 
 ## How to setup Google Drive
-<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/userbot/resources/gd.png" alt="haa" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/ManusiaRakitan/Bot-Kampang/Kampang/userbot/resources/gd.png" alt="haa" width="210" height="34.45" /></a></p>
 
 ## Credits
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
