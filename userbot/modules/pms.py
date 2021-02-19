@@ -26,28 +26,28 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    "╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-    "    SELAMAT DATANG DI\n"
-    f"   `{DEFAULTUSER}` CHAT\n"
-    "╰━━━━━━━━━━━━━━━━━━━━━╯\n\n"
+    "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
+    "    APA LU KAMPANG?\n"
+    f"  MAU GANGGUIN BAGINDA `{DEFAULTUSER}` ?\n"
+    "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Saya Bot Assisten `{DEFAULTUSER}`\n"
+    f"Gua Babu Nya `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
-    "╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-    " Mohon untuk tidak\n"
-    " melakukan spam chat\n"
-    " Atau Saya Akan Otomatis\n"
-    " Mereport & Block Kamu\n"
-    " Silahkan Tungguu Sampai\n"
-    f" `{DEFAULTUSER}` Menerima Pesanmu\n"
-    "╰━━━━━━━━━━━━━━━━━━━━━╯\n\n"
+    "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
+    " Baca Kontol\n"
+    " Gausah Spam Ya Anjeng\n"
+    " Lu Bandel?\n"
+    " Gua Sentil Biji Peler Lu\n"
+    " Tungguin Aja Ya Ngentot Sampai Baginda\n"
+    f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
+    "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
-    "   ♥️♥️TERIMAKASIH ❤️♥️\n"
+    "   😡😡KONTOLLLLL 😡😡\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- ©Bot Assisten `{DEFAULTUSER}`\n"
-    "- Protected By 🔥XBOT-REMIX🔥")
+    f"- 🐨Babu Nya `{DEFAULTUSER}`\n"
+    "- DIKENTOT OLEH 🐨Kampang-BOT🐨")
 # =================================================================
 
 
