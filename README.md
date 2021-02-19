@@ -1,10 +1,10 @@
 <p align="center">
     <img alt=Kampang-Bot" src="https://img.shields.io/badge/Kampang%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
-    <a href="https://travis-ci.com/X-Newbie/XBot-Remix.svg?branch=x-sql-extended" /></a>
-    <a href="https://app.codacy.com/gh/X-Newbie/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix"> <img src="https://img.shields.io/github/repo-size/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
-    <a href="https://github.com/X-Newbie/XBot-Remix/network/members"> <img src="https://img.shields.io/github/forks/X-Newbie/XBot-Remix?logo=github&style=for-the-badge" /></a>
+    <a href="https://travis-ci.com/ManusiaRakitan/Kampang-Bot.svg?branch=Kampang" /></a>
+    <a href="https://app.codacy.com/gh/ManusiaRakitan/Kampang-Bot/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/ManusiaRakitan/Kampang-Bot"> <img src="https://img.shields.io/github/repo-size/ManusiaRakitan/Kampang-Bot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/ManusiaRakitan/Kampang-Bot/network/members"> <img src="https://img.shields.io/github/forks/ManusiaRakitan/Kampang-Bot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.8.6-blue?style=for-the-badge&logo=appveyor"/>
     <a href="https://hub.docker.com/r/koala21/dockerbuild"> <img src="https://img.shields.io/docker/image-size/koala21/dockerbuild/latest?label=docker%20image%20size&logo=docker&style=for-the-badge" /></a>
