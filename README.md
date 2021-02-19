@@ -18,19 +18,17 @@
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
 ```
-/**
-    Your Telegram account may get banned.
-    I am not responsible for any improper use of this bot
-    This bot is intended for the purpose of having fun with memes,
-    as well as efficiently managing groups.
-    You ended up spamming groups, getting reported left and right,
-    and you ended up in a Finale Battle with Telegram and at the end
-    Telegram Team deleted your account?
-    And after that, then you pointed your fingers at us
-    for getting your acoount deleted?
-    I will be rolling on the floor laughing at you.
-/**
-```
+<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">KAMPANG ░ 🐨</a></b></h2>
+<br>
+<p align="center">
+   <a href="https://github.com/ManusiaRakitan/Kampang-Bot"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="BOT-KAMPANG" width=400px></a>
+   <br>
+   <br>
+</p>
+<h1>BOT-KAMPANG</h1>
+<b>BOT NYA TOXIC HATI - HATI!</b>
+<br>
+<br>
 
 ## Generate String Session
 
