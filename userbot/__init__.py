@@ -100,9 +100,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Camel07/XBot-Remix.git")
+    "https://github.com/ManusiaRakitan/Kampang-Bot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "x-sql-extended")
+    "UPSTREAM_REPO_BRANCH", "Kampang")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -163,7 +163,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "XBOT-REMIX")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "KAMPANG-BOT")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
