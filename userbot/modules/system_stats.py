@@ -20,7 +20,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, bot
 from userbot.events import register
 
 
@@ -242,9 +242,9 @@ async def amireallyalive(alive):
         f"•➣ **Mσԃυʅҽ**    \n   ➲ `{len(modules)}` \n\n"
         f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [BOT KAMPANG](https://github.com/ManusiaRakitan/XBot-Remix)\n🐨 **Grup Official: **[Pencet Asu](t.me/caritemanhidop)\n☬ **ѕυρρσят ву:** [KOALA 🐨](t.me/mixiologist)\n"
         f"**╚▣╩▣╩▣╩╣𝐍𝐆𝐄𝐍𝐓𝐎𝐓╠╩▣╩▣╩▣╝**")
-        
+
     if ALIVE_LOGO:
-        try: 
+        try:
             logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
@@ -261,7 +261,6 @@ async def amireallyalive(alive):
         await alive.edit(output)
         await asyncio.sleep(100)
         await alive.delete()
-
 
 
 @register(outgoing=True, pattern=r"^\.aliveu")

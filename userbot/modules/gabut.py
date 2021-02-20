@@ -1,9 +1,8 @@
 from datetime import datetime
-from speedtest import Speedtest
 import time
 from time import sleep
 from platform import uname
-from userbot import ALIVE_NAME, CMD_HELP, StartTime, BOT_VER
+from userbot import ALIVE_NAME, CMD_HELP, StartTime
 from userbot.events import register
 
 # ================= CONSTANT =================
@@ -56,18 +55,17 @@ async def pingme(pong):
                     f"\n ⫸ ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
 
 
-
-
 @register(outgoing=True, pattern='^kntl(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit(f"**LU KONTOL**")
     sleep(3)
-    await typew.edit("`KONTOL KONTOL KONTOL!!!`") 
+    await typew.edit("`KONTOL KONTOL KONTOL!!!`")
     sleep(3)
     await typew.edit("`DASAR KEPALA KONTOL!!!`")
 # Owner @Si_Dian
+
 
 @register(outgoing=True, pattern='^G(?: |$)(.*)')
 async def typewriter(typew):
@@ -99,10 +97,6 @@ async def typewriter(typew):
 # Owner @Si_Dian
 
 
-
-        
-
-
 @register(outgoing=True, pattern='^.usange(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -110,9 +104,8 @@ async def typewriter(typew):
     await typew.edit("`Getting Information...`")
     sleep(1)
     await typew.edit("**Kampang Usage 🐨**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Kealayan ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Alay Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
-)
+                     )
 # @mixiologist
-
 
 
 CMD_HELP.update({
