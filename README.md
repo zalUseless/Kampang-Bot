@@ -37,7 +37,7 @@
 - [Generate on REPL Click](https://repl.it/@ManusiaRakitan/stringsession#README.md)
 ### Read more
 <details>
-  <summary><b>Details and Guides</b></summary>
+  <summary><b>KLIK DISINI UNTUK TOMLOL DEPLOY ASU</b></summary>
 
 ## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
 
