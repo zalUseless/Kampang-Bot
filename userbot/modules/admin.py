@@ -134,17 +134,17 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Promoting... please wait`")
+    await promt.edit("`Ciyee Jadi Admin si Anjing`")
     user, rank = await get_user_from_event(promt)
     if not rank:
-        rank = "Admeme"  # Just in case.
+        rank = "Anak Kontol"  # Just in case.
     if not user:
         return
 
     # Try to promote if current user is admin or creator
     try:
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully!`")
+        await promt.edit("`Jadi Admen Burik Berhasil!`")
         await sleep(5)
         await promt.delete()
 
@@ -175,7 +175,7 @@ async def demote(dmod):
 
     # If passing, declare that we're going to demote
     await dmod.edit("`Demoting...`")
-    rank = "admeme"  # dummy rank, lol.
+    rank = "Anak Kontol"  # whahahaha kena demote, tolol.
     user = await get_user_from_event(dmod)
     user = user[0]
     if not user:
@@ -198,7 +198,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Demoted Successfully!`")
+    await dmod.edit("`Kecian Ga Jadi Admin Lagi!`")
     await sleep(5)
     await dmod.delete()
 
