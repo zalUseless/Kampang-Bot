@@ -18,7 +18,6 @@ from telethon.tl.types import (DocumentAttributeFilename,
 
 
 @register(outgoing=True, pattern="^.tiny(?: |$)(.*)", disable_errors=True)
-)
 async def ultiny(event):
     reply=await event.get_reply_message()
     if not (reply and (reply.media)):
