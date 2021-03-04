@@ -2,7 +2,6 @@
 import os
 from userbot.events import register
 from userbot import CMD_HELP
-import cv2
 from PIL import Image
 
 
