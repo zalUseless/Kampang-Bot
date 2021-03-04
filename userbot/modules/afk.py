@@ -3,7 +3,6 @@
 from datetime import datetime
 import time
 from random import choice, randint
-from userbot import CMD_HANDLER
 from telethon.events import StopPropagation
 from telethon.tl.functions.account import UpdateProfileRequest
 
