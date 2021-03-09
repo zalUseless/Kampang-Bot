@@ -496,7 +496,7 @@ async def upload_track(track_location, message):
 
 CMD_HELP.update(
     {
-        "getmusic": ">`.net <Artis - Judul Lagu>`"
+        "musicnjig": ">`.net <Artis - Judul Lagu>`"
         "\nUsage: Download Musik Dari @WooHaiBot"
         "\n\n>`.net now`"
         "\nUsage: Download LastFM scrobble."
