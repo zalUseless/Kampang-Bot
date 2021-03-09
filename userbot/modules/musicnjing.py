@@ -61,7 +61,7 @@ async def _(event):
         if any(fn_img.endswith(ext_img) for ext_img in img_extensions)
     ]
     thumb_image = img_filenames[0]
-    await event.edit("`Sedang Mengunggah Lagu Anda Lord....`")
+    await event.edit("`Gii aplod bentar asuuuu....`")
     c_time = time.time()
     await event.client.send_file(
         event.chat_id,
