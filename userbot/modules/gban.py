@@ -1,5 +1,7 @@
-# Fixed by:koala @mixiologist
-# Lord Userbot
+# Fixed By Koala @manusiarakitann
+# jangan datang hanya saat perlu :) aku bukan tuhan
+# Lord-Userbot
+# Lu kontollll..
 
 from userbot import ALIVE_NAME, CMD_HELP
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
