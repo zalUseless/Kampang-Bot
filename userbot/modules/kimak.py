@@ -1,5 +1,6 @@
 
-# By @danish_00
+# Port ny Koala @manusiarakitann
+# jangan datang hanya saat perlu :) aku bukan tuhan
 
 from telethon import events, functions
 from telethon.errors.rpcerrorlist import YouBlockedUserError
@@ -13,7 +14,7 @@ async def _(event):
         return
     danish = event.pattern_match.group(1)
     chat = "@Carol5_bot"
-    await event.edit("Searching ur bin 😅😁...")
+    await event.edit("Mencari kartu kredet gaess 😅😁...")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -23,7 +24,7 @@ async def _(event):
             await event.client.send_message(chat, "/bin {}".format(danish))
             respond = await response
         except YouBlockedUserError:
-            await event.reply("Boss! Please Unblock @Carol5_bot ")
+            await event.reply("Boss! Unblock hanceut @Carol5_bot ")
             return
         if respond.text.startswith(" "):
             await event.edit("That bot is dead bro now this cmd is useless 😂😂")
@@ -41,7 +42,7 @@ async def _(event):
 
     danish = event.pattern_match.group(1)
     chat = "@Carol5_bot"
-    await event.edit("Connecting...")
+    await event.edit("Nekonekonek....")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -51,10 +52,10 @@ async def _(event):
             await event.client.send_message(chat, "/vbv {}".format(danish))
             respond = await response
         except YouBlockedUserError:
-            await event.reply("Boss! Please Unblock @Carol5_bot ")
+            await event.reply("Boss! Unblock hanceut @Carol5_bot ")
             return
         if respond.text.startswith(" "):
-            await event.edit("That bot is dead bro now this cmd is useless 😂😂")
+            await event.edit("Bot ny meninggoy asu 😂😂")
         else:
 
             await event.client.send_message(event.chat_id, respond.message)
