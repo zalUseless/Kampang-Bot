@@ -1,5 +1,5 @@
 
-# Port ny Koala @manusiarakitann
+# Port by Koala @manusiarakitann
 # jangan datang hanya saat perlu :) aku bukan tuhan
 
 from telethon import events, functions
