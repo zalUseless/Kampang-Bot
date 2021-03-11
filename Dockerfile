@@ -4,7 +4,7 @@ FROM koala21/manusiarakitan:kampang
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b Kampang https://github.com/tungauicipiyey/kampang-Bot /root/userbot
+RUN git clone -b Kampang https://github.com/tungauicipiyey/kampang-bot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
