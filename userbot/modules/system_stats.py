@@ -234,15 +234,19 @@ async def amireallyalive(alive):
     output = (
         f"**╔▣╦▣╦▣╦╣🐨╠╦▣╦▣╦▣╗**\n"
         f"    **☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬** \n\n"
-        f"•➣ **ƙąɱ℘ąŋɠ**     \n   ➲ `{DEFAULTUSER}` \n"
-        f"•➣ **Uʂҽɾɳαɱҽ** \n   ➲ `@{user.username}` \n"
-        f"•➣ **Tҽɳɠҽɳƚσƚ** \n   ➲ `Versi {version.__version__}` \n"
-        f"•➣ **Pყƚԋσɳ**   \n   ➲ `Versi {python_version()}` \n"
-        f"•➣ **Vҽɾʂι Kαɱραɳɠ**\n   ➲ `{BOT_VER}` \n"
-        f"•➣ **Mσԃυʅҽ**    \n   ➲ `{len(modules)}` \n\n"
+
+          Jika hatimu banyak merasakan sakit, maka belajarlah dari rasa sakit itu untuk tidak memberikan rasa sakit pada orang lain
+
+          -Tungau
+        
+        f"✶ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐** ✶    \n   ➬ `{DEFAULTUSER}` \n"
+        f"✶ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** ✶ \n   ➬ `@{user.username}` \n"
+        f"✶ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗** ✶ \n   ➬ `{BOT_VER}` \n"
+        f"✶ **𝙼𝚘𝚍𝚞𝚕𝚎 𝙺𝚎𝚐𝚊𝚋𝚞𝚝𝚊𝚗** ✶    \n   ➬ `{len(modules)}` \n\n"
         f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n🐨 **Grup Official: **[Pencet Asu](t.me/caritemanhidop)\n☬ **ѕυρρσят ву:** [KOALA 🐨](t.me/manusiarakitann)\n"
         f"**╚▣╩▣╩▣╩╣𝐍𝐆𝐄𝐍𝐓𝐎𝐓╠╩▣╩▣╩▣╝**")
 
+        
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
