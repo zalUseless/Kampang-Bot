@@ -233,12 +233,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╔▣╦▣╦▣╦╣🐨╠╦▣╦▣╦▣╗**\n"
-        f"    **☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬** \n\n"
-
-          Jika hatimu banyak merasakan sakit, maka belajarlah dari rasa sakit itu untuk tidak memberikan rasa sakit pada orang lain
-
-          -Tungau
-        
+        f"    **☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬** \n\n"               
         f"✶ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐** ✶    \n   ➬ `{DEFAULTUSER}` \n"
         f"✶ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** ✶ \n   ➬ `@{user.username}` \n"
         f"✶ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗** ✶ \n   ➬ `{BOT_VER}` \n"
