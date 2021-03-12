@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"➨⛓ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** :  ➬ `@{user.username}` \n"
         f"➨🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**     :  ➬ `Versi {python_version()}` \n"
         f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n\n"     
-        f"➨🔰 **Grup Official : **[Klik](t.me/CariTemen_Random)\n➨⚜ **Pemilik : ** [𝐓𝐔𝐍𝐆𝐀𝐔](t.me/DamnBitchh)\n➨ 🛠 **Instagram : **[Ari](buttonurl:https://www.instagram.com/arimulyaa_/)\n
+        f"➨🔰 **Grup Official : **[Klik](t.me/CariTemen_Random)\n➨⚜ **Pemilik : ** [𝐓𝐔𝐍𝐆𝐀𝐔](t.me/DamnBitchh)\n➨ 🛠 **Instagram : **[Ari](https://www.instagram.com/arimulyaa_/) \n"      
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯**")
 
         
