@@ -81,8 +81,6 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hai Kafir**")
-    sleep(3)
     await typew.edit("`𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦 𝐊𝐚𝐮𝐦 𝐃𝐚𝐣'𝐚𝐥`")
 # Owner @mixiologist
 
