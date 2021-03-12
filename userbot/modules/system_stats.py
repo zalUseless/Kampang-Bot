@@ -233,12 +233,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╮**\n"
+
         f"      **𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘** \n\n"               
         f"➨✶ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐** ✶    \n   ➬ `{DEFAULTUSER}` \n"
         f"➨✶ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** ✶ \n   ➬ `@{user.username}` \n"
         f"➨✶ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗** ✶ \n   ➬ `{BOT_VER}` \n"
         f"➨✶ **𝙼𝚘𝚍𝚞𝚕𝚎 𝙺𝚎𝚐𝚊𝚋𝚞𝚝𝚊𝚗** ✶    \n   ➬ `{len(modules)}` \n\n"
-        f"•➣ ⛓ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓](https://github.com/tungauicipiyey/kampang-bot)\n🔰 **Grup Official: **[Klik](t.me/CariTemen_Random)\n⚜ **Pemilik:** [𝐓𝐔𝐍𝐆𝐀𝐔](t.me/DamnBitchh)\n"
+        f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓](https://github.com/tungauicipiyey/kampang-bot)\n➨🔰 **Grup Official: **[Klik](t.me/CariTemen_Random)\n⚜ **Pemilik:** [𝐓𝐔𝐍𝐆𝐀𝐔](t.me/DamnBitchh)\n"
+       
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯**")
 
         
