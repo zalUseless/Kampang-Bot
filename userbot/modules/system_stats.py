@@ -237,9 +237,9 @@ async def amireallyalive(alive):
         f"➨⚔ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐**  :  ➬ `{DEFAULTUSER}` \n"
         f"➨⛓ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** :  ➬ `@{user.username}` \n"
         f"➨🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**     :  ➬ `Versi {python_version()}` \n"
-        f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n"     
-        f" ╭▻---        ❗DANGER❗        ---◅╮ \n"
-        f"➨🛡 **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓](https://github.com/tungauicipiyey/kampang-bot)\n➨🔰 **Grup Official: **[Klik](t.me/CariTemen_Random)\n➨⚜ **Pemilik:** [𝐓𝐔𝐍𝐆𝐀𝐔](t.me/DamnBitchh)\n\n"
+        f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n\n"     
+        f"               ❗DANGER❗         \n\n"
+        f"➨🛡 **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬](https://github.com/tungauicipiyey/kampang-bot)\n➨🔰 **Grup Official: **[Klik](t.me/CariTemen_Random)\n➨⚜ **Pemilik:** [𝐓𝐔𝐍𝐆𝐀𝐔](t.me/DamnBitchh)\n\n"
        
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯**")
 
