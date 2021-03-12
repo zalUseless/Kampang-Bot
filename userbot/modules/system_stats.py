@@ -232,14 +232,15 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**╭▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╮**\n\n"       
+        f"**╭▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╮**\n"       
         f"     ...**╰▻ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ◅╯**...\n\n"               
         f"➨⚔ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐**  :  ➬ `{DEFAULTUSER}` \n"
         f"➨⛓ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎** :  ➬ `@{user.username}` \n"
         f"➨🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**     :  ➬ `Versi {python_version()}` \n"
-        f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n\n"     
-        f" **[Grup Oficial](t.me/CariTemen_Random)**   |   **[Pemilik](t.me/DamnBitchh)**   |   **[Instagram](https://www.instagram.com/arimulyaa_/)** \n"      
-        f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯**")
+        f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n"     
+        f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯** \n"
+       f" **[Grup Oficial](t.me/CariTemen_Random)**   |   **[Pemilik](t.me/DamnBitchh)**   |   **[Instagram](https://www.instagram.com/arimulyaa_/)** ")     
+      
 
         
     if ALIVE_LOGO:
