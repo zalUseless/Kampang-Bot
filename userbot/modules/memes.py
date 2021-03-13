@@ -1656,17 +1656,6 @@ async def koc(e):
         await e.edit("crooottssssssss")
         await e.edit(choice(FACEREACTS))
 
-@register(outgoing=True, pattern="^.sagapung$")
-async def repo_is_here(wannasee):
-    """ For .sagapung command, just returns the repo URL. """
-    await wannasee.edit(
-    await e.edit("Piki Kang Tusbol💦")
-    await e.edit("Alvin Korban Gay 💦")
-    await e.edit("Toni Sangean 💦 💦")
-    await e.edit("Tungau Majikan 👑")
-    await e.edit("Friski Babu Pergay an🤣👌")
-    await e.edit("Oke,, Perkumpulan Sagapung Ready ☑")
-
 
 @register(outgoing=True, pattern="^.gas$")
 async def gas(e):
