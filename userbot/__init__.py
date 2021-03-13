@@ -318,7 +318,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🐨BOT KAMPANG🐨\nMENYALA ANJEEENG```")
+    await bot.send_message(BOTLOG_CHATID, "```╰▻ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ◅╯\n Telah Aktif Boss```")
     return
 
 with bot:
