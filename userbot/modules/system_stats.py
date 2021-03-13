@@ -239,9 +239,9 @@ async def amireallyalive(alive):
         f"➨🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**   :   `Versi {python_version()}` \n"
         f"➨🖥 **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗**   :   `Versi {version.__version__}` \n"
         f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**   :   `{BOT_VER}` \n\n"     
-        f"**ㅤ🔰•PEMILIK•**   :   **[TUNGAU](t.me/DamnBitchh)** \n"
+        f"**ㅤㅤ🔰•PEMILIK•**   :   **[TUNGAU](t.me/DamnBitchh)** \n"
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯** \n"
-        f" **| [Grup Oficial](t.me/CariTemen_Random)**      |-----|     **[Instagram](https://www.instagram.com/arimulyaa_/) |** ")     
+        f"**| [Grup Oficial](t.me/CariTemen_Random)**     |--|     **[Instagram](https://www.instagram.com/arimulyaa_/) |** ")     
       
 
         
