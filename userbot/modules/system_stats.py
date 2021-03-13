@@ -240,7 +240,7 @@ async def amireallyalive(alive):
         f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n"     
         f"➨🔱 **Pemilik**   :   ➬ **[TUNGAU](t.me/DamnBitchh)** \n"
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯** \n"
-        f" **[Grup Oficial](t.me/CariTemen_Random)**     |     |    **[Instagram](https://www.instagram.com/arimulyaa_/)** ")     
+        f" **[Grup Oficial](t.me/CariTemen_Random)**      |     |     **[Instagram](https://www.instagram.com/arimulyaa_/)** ")     
       
 
         
