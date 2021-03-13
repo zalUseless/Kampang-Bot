@@ -81,17 +81,23 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦 𝐊𝐚𝐮𝐦 𝐃𝐚𝐣'𝐚𝐥`")
+    await typew.edit("`Assalamu'alaikum Babu..`")
 # Owner @mixiologist
 
 
-@register(outgoing=True, pattern='^P(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sagapung(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo KIMAAKK SAYA {DEFAULTUSER}**")
+    await typew.edit(f"**Alvin Korban Gay✔**")
     sleep(2)
-    await typew.edit("`KONTOLLL.....`")
+    await typew.edit("**Friski Kang Coli💦**")
+    sleep(2)
+    await typew.edit("**Toni Partner Gay Alvin✔**")
+    sleep(2)
+    await typew.edit("**Tungau Ketua Sagapung☑💦**")
+    sleep(2)
+    await typew.edit("**PASUKANN SAGAPUNGG READYY👉👌💦☑**")
 # Owner @Si_Dian
 
 
