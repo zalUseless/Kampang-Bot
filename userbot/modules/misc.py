@@ -65,7 +65,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Shutdown *BOT KAMPANG 🐨*....`")
+    await event.edit("`Shutdown *╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯•*....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -76,7 +76,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting BOT KAMPANG🐨....`")
+    await event.edit("`Restarting ╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯....`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "🔰 **Klik For Deploy:** [┣━•━─[ 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 ]─━•━┫](https://github.com/tungauicipiyey/kampang-bot)"
+        "🔰 **Klik For Deploy:** [┣━•━─[ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ]─━•━┫](https://github.com/tungauicipiyey/kampang-bot)"
     )
 
 
@@ -128,7 +128,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .string command, just returns the string URL. """
     await wannasee.edit(
-        "🐨 **Get String:** [Press For GetString](https://repl.it/@ManusiaRakitan/stringsession#README.md)"
+        " **Get String:** [Press For GetString](https://repl.it/@ManusiaRakitan/stringsession#README.md)"
     )
 
 
@@ -136,8 +136,16 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """ For .usergay command, just returns the repo URL. """
     await wannasee.edit(
-        "🐨 **Repo UsergayKampang:** [UsergayKamlang](https://github.com/ManusiaRakitan/UsergayKampang)"
+        " **Repo UsergayKampang:** [UsergayKamlang](https://github.com/ManusiaRakitan/UsergayKampang)"
     )
+
+
+@register(outgoing=True, pattern="^.instagram$")
+async def repo_is_here(wannasee):
+    """ For .usergay command, just returns the repo URL. """
+    await wannasee.edit(
+         " **Instagram : ** [Klik For Instagram](https://www.instagram.com/arimulyaa_/)"
+     )
 
 
 @register(outgoing=True, pattern="^.raw$")
