@@ -23,10 +23,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "`#AFK 🐨\n ᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!!!`",
+    "`#AFK 🐨\n Jangan Ganggu Dulu Ya Babu..!!!`",
     "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT\n Tolong Jangan Ganggu Saya!!",
     "`#AFK 🐨\n Saya Sedang NGENTOT\n Jangan Ganggu Saya !!!!!`",
-    "`#AFK 🐨\n ᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!!!`",
+    "`#AFK 🐨\n Jangan Ganggu Dulu Ya Babu..!!!`",
 ]
 
 
@@ -61,10 +61,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**AFK 🐨!**\nᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!\
+        await afk_e.edit(f"**AFK!**\nJangan Ganggu Dulu Ya Babu..!\
         \nReason: `{string}`")
     else:
-        await afk_e.edit("**AFK 🐨!**\nᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!")
+        await afk_e.edit("**AFK!**\nJangan Ganggu Dulu Ya Babu..!")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ NGENTOT ]"))
     else:
@@ -97,7 +97,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**ᴏᴋᴇ ᴋᴏɴᴛᴏʟ,, ꜱᴀʏᴀ ꜱᴜᴅᴀʜ ᴀᴋᴛɪꜰ ᴋᴇᴍʙᴀʟɪ..!....**")
+        msg = await notafk.respond("**Oke Kontoll,, Saya Aktif Kembali..!....**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
@@ -165,7 +165,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)}s`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"ᴄᴀʀɪ ᴀᴘᴀ ᴋᴀᴡᴀɴ? ʏᴀɴɢ ᴘᴜɴʏᴀ ᴀᴋᴜɴ ꜱᴇᴅᴀɴɢ ꜱɪʙᴜᴋ..! {afk_since} Yg Lalu.\
+                    await mention.reply(f"Cari Apa Kawan? Yang Punya Akun Sedang Sibuk..! {afk_since} Yg Lalu.\
                         \nReason: `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
