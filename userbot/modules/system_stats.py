@@ -242,18 +242,6 @@ async def amireallyalive(alive):
         f"**ㅤㅤ🔰•PEMILIK•**   :   **[TUNGAU](t.me/DamnBitchh)** \n"
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯** \n"
         f"**| [Grup Oficial](t.me/CariTemen_Random)**     |--|     **[Instagram](https://www.instagram.com/arimulyaa_/) |** ")     
-
-
-@register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
-async def amireallyalive(alive):
-    user = await bot.get_me()
-    await get_readable_time((time.time() - StartTime))
-    output = (
-        f"     ╭▻......**╰▻ 𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬 ◅╯**......◅╮\n\n"
-        f"⌲⚔ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐**\n╰▻`{DEFAULTUSER}` \n"ㅤㅤㅤㅤㅤㅤㅤㅤㅤf"⌲⛓ **𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎**\n╰▻`@{user.username}` \n"
-        f"⌲🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**\n╰▻`Versi {python_version()}` \n"ㅤㅤㅤㅤㅤㅤㅤㅤㅤf"➨🖥 **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗**\n╰▻`Versi {version.__version__}` \n"
-        f"⌲✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**\n╰▻`{BOT_VER}` \n\n"ㅤㅤㅤㅤㅤㅤㅤㅤㅤf"⌲ **Grup Oficial**\n╰▻[KLIK FOR JOIN](t.me/CariTemen_Random)** \n\n"
-        f" ㅤㅤㅤㅤ🔰•PEMILIK•**ㅤㅤ:   **[TUNGAU](t.me/DamnBitchh)** "")
       
 
         
