@@ -23,10 +23,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT!!`",
+    "`#AFK 🐨\n ᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!!!`",
     "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT\n Tolong Jangan Ganggu Saya!!",
     "`#AFK 🐨\n Saya Sedang NGENTOT\n Jangan Ganggu Saya !!!!!`",
-    "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT!!`",
+    "`#AFK 🐨\n ᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!!!`",
 ]
 
 
@@ -61,10 +61,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**AFK 🐨!**\nSaya NGENTOT Dulu Bro...\
+        await afk_e.edit(f"**AFK 🐨!**\nᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!\
         \nReason: `{string}`")
     else:
-        await afk_e.edit("**AFK 🐨!**\nSaya NGENTOT Dulu Bro...")
+        await afk_e.edit("**AFK 🐨!**\nᴊᴀɴɢᴀɴ ɢᴀɴɢɢᴜ ᴅᴜʟᴜ ʏᴀ ʙᴀʙᴜ..!")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ NGENTOT ]"))
     else:
@@ -97,7 +97,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**OK Saya Udah CROTTTTT....**")
+        msg = await notafk.respond("**ᴏᴋᴇ ᴋᴏɴᴛᴏʟ,, ꜱᴀʏᴀ ꜱᴜᴅᴀʜ ᴀᴋᴛɪꜰ ᴋᴇᴍʙᴀʟɪ..!....**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
@@ -165,7 +165,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)}s`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"Saya NGENTOT {afk_since} Yg Lalu.\
+                    await mention.reply(f"ᴄᴀʀɪ ᴀᴘᴀ ᴋᴀᴡᴀɴ? ʏᴀɴɢ ᴘᴜɴʏᴀ ᴀᴋᴜɴ ꜱᴇᴅᴀɴɢ ꜱɪʙᴜᴋ..! {afk_since} Yg Lalu.\
                         \nReason: `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -251,7 +251,7 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"dibilang gii ngentot... {afk_since}.\
+                        await sender.reply(f"ᴄᴀʀɪ ᴀᴘᴀ ᴋᴀᴡᴀɴ? ʏᴀɴɢ ᴘᴜɴʏᴀ ᴀᴋᴜɴ ꜱᴇᴅᴀɴɢ ꜱɪʙᴜᴋ..!... {afk_since}.\
                             \nReason: `{AFKREASON}`")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
