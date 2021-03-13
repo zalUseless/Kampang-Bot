@@ -68,7 +68,7 @@ async def set_afk(afk_e):
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ NGENTOT ]"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=" [ NGENTOT ]"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=" [ 𝐎𝐅𝐅 ]"))
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nGii Ngentot nich!")
     ISAFK = True
