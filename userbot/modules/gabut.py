@@ -90,14 +90,14 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit(f"**Alvin Korban Gay✔**")
-    sleep(2)
+    sleep(1)
     await typew.edit("**Friski Kang Coli💦**")
-    sleep(2)
+    sleep(1)
     await typew.edit("**Toni Partner Gay Alvin✔**")
-    sleep(2)
+    sleep(1)
     await typew.edit("**Tungau Ketua Sagapung☑💦**")
-    sleep(2)
-    await typew.edit("**PASUKANN SAGAPUNGG READYY👉👌💦☑**")
+    sleep(1)
+    await typew.edit("**PASUKANN SAGAPUNGG READYY👉👌💦**")
 # Owner @Si_Dian
 
 
