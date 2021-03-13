@@ -239,7 +239,7 @@ async def amireallyalive(alive):
         f"➨🐍 **𝙿𝚢𝚝𝚑𝚘𝚗**     :  ➬ `Versi {python_version()}` \n"
         f"➨✔ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗𝚗**  :  ➬ `{BOT_VER}` \n"     
         f"➨🔱 **Pemilik**    :   ➬ **[TUNGAU](t.me/DamnBitchh)** \n\n"
-        f"➨ **Uptime ⏰**    :  ➬  **% (duration)** \n"
+        f"➨ **Uptime ⏰**    :   ➬  **{uptime}** \n"
         f"**╰▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅╯** \n"
         f" **[Grup Oficial](t.me/CariTemen_Random)**      |     |     **[Instagram](https://www.instagram.com/arimulyaa_/)** ")     
       
