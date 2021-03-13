@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n`**𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘**\n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
+            f'\n`** ╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯ **\n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**UPDATE Terbaru Untuk **𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘** [{ac_br}]:\n\nPERUBAHAN:**\n`{changelog}`'
+        changelog_str = f'**UPDATE Terbaru Untuk **╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯ ** [{ac_br}]:\n\nPERUBAHAN:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog is too big, view the file to see it.`")
             file = open("output.txt", "w+")
@@ -214,10 +214,10 @@ async def upstream(event):
         await event.edit(
             '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
-        await event.edit('`Proses Update **𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘**, ....🛠️`')
-        await event.edit('`Proses Update **𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘** , loading....🛠️`')
-        await event.edit('`Proses Update **𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘** , updating....🛠️`')
-        await event.edit('`Proses Update **𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘** silahkan tunggu kontol....🛠️`')
+        await event.edit('`Proses Update **𖣘 ╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯ 𖣘**, ....🛠️`')
+        await event.edit('`Proses Update **𖣘 ╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯ 𖣘** , loading....🛠️`')
+        await event.edit('`Proses Update **𖣘 ╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯ 𖣘** , updating....🛠️`')
+        await event.edit('`Proses Update **𖣘 ╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯ 𖣘** silahkan tunggu kontol....🛠️`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
