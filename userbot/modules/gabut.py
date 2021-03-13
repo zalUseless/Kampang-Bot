@@ -59,13 +59,13 @@ async def pingme(pong):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"Haii,Saya Tungauu👋..")
+    await typew.edit(f"**Haii,Saya Tungauu👋..**")
     sleep(1)
-    await typew.edit("`Saya Berasal Dari Pekanbaru😇..`")
+    await typew.edit("**Saya Berasal Dari Pekanbaru😇..**")
     sleep(1)
-    await typew.edit("`Saya BerUmur 18 Tahun😇..`")
+    await typew.edit("**Saya BerUmur 18 Tahun😇..**")
     sleep(1)
-    await typew.edit("Salam Kenal Ya,Terimakasih 🙏..")
+    await typew.edit("**Salam Kenal Ya,Terimakasih 🙏..**")
 # Owner @Si_Dian
 
 
