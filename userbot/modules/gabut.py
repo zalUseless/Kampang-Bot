@@ -55,15 +55,17 @@ async def pingme(pong):
                     f"\n ⫸ ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
 
 
-@register(outgoing=True, pattern='^kntl(?: |$)(.*)')
+@register(outgoing=True, pattern='^.intro(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**LU KONTOL**")
-    sleep(3)
-    await typew.edit("`KONTOL KONTOL KONTOL!!!`")
-    sleep(3)
-    await typew.edit("`DASAR KEPALA KONTOL!!!`")
+    await typew.edit(f"Haii,Saya Tungauu👋..")
+    sleep(1)
+    await typew.edit("`Saya Berasal Dari Pekanbaru😇..`")
+    sleep(1)
+    await typew.edit("`Saya BerUmur 18 Tahun😇..`")
+    sleep(1)
+    await typew.edit("Salam Kenal Ya,Terimakasih 🙏..")
 # Owner @Si_Dian
 
 
