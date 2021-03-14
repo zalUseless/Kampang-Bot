@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/tungauicipiyey/kampang-bot",
   "telegram": "https://t.me/DamnBitchh",
-  "success_url": ""https://t.me/CariTemen_Random"",
+  "success_url": "https://t.me/CariTemen_Random",
   "stack": "container",
   "env": {
     "API_KEY": {
