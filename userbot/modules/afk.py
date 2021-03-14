@@ -62,7 +62,7 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(f"**AFK!**\n➢Jangan Ganggu Dulu Ya Babu..!\
-        \n╰▻Reason : ⇒ `{string}`")
+        \n╰▻Reason  : ☞ `{string}`")
     else:
         await afk_e.edit("**AFK!**\n➢Jangan Ganggu Dulu Ya Babu..!")
     if user.last_name:
@@ -165,8 +165,8 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)}s`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..! {afk_since} Yg Lalu.\
-                        \n╰▻Reason : ⇒ `{AFKREASON}`")
+                    await mention.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..!\n➢Durasi Afk : {afk_since} Yang Lalu.\
+                        \n╰▻Reason  : ☞ `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -174,8 +174,8 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..! {afk_since}.\
-                            \n╰▻Reason : ⇒ `{AFKREASON}`")
+                        await mention.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..! \n➢Durasi Afk : {afk_since} Yang Lalu.\
+                            \n╰▻Reason  : ☞ `{AFKREASON}`")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
@@ -242,8 +242,8 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)}s`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..! {afk_since}.\
-                        \n╰▻Reason : ⇒ `{AFKREASON}`")
+                    await sender.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..!\n➢Durasi Afk : {afk_since} Yang Lalu.\
+                        \n╰▻Reason  : ☞ `{AFKREASON}`")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
@@ -251,8 +251,8 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..!... {afk_since}.\
-                            \n╰▻Reason : ⇒ `{AFKREASON}`")
+                        await sender.reply(f"➢Cari Apa Kawan? Yang Punya Akun Sedang Off..!\n➢Durasi Afk : {afk_since} Yang Lalu.\
+                            \n╰▻Reason  : ☞ `{AFKREASON}`")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
