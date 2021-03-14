@@ -24,8 +24,8 @@ from userbot.events import register
 # ========================= CONSTANTS ============================
 AFKSTR = [
     "`#AFK 🐨\n ➢Jangan Ganggu Dulu Ya Babu..!!!`",
-    "`#AFK 🐨\n Maaf Boss Saya Sedang NGENTOT\n Tolong Jangan Ganggu Saya!!",
-    "`#AFK 🐨\n Saya Sedang NGENTOT\n Jangan Ganggu Saya !!!!!`",
+    "`#AFK 🐨\n ➢Jangan Ganggu Dulu Ya Babu..!!!`",
+    "`#AFK 🐨\n ➢Jangan Ganggu Dulu Ya Babu..!!!`",
     "`#AFK 🐨\n ➢Jangan Ganggu Dulu Ya Babu..!!!`",
 ]
 
