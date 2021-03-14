@@ -1,7 +1,7 @@
 {
   "name": "╰▻ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ◅╯",
   "description": "[BOT VIRUS] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
-  "logo": "https://telegra.ph/file/ecacf51f2ee342ba5d3e1.jpg",
+  "logo": "https://telegra.ph/file/377e9eb52531394880b6d.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,7 +10,7 @@
     "productivity"
   ],
   "repository": "https://github.com/tungauicipiyey/kampang-bot",
-  "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
+  "website": "https://t.me/CariTemen_Random",
   "success_url": "https://t.me/DamnBitchh",
   "stack": "container",
   "env": {
