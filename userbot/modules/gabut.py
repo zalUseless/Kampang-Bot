@@ -120,6 +120,8 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
+    await typew.edit("**PASUKANN SAGAPUNGG 💦💦**")
+    sleep(1)
     await typew.edit(f"**Alvin Korban Gay ☑**")
     await typew.edit(f"**Alvin Korban Gay ✅**")
     sleep(1)
