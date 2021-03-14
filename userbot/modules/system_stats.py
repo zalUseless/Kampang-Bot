@@ -243,7 +243,7 @@ async def amireallyalive(alive):
         f"**╰━━━━━━━━━━━━━━━━━━━━╯** \n"   
         f"**ㅤㅤ🔰•PEMILIK•**   :   **[TUNGAU](t.me/DamnBitchh)** \n"
         f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱** \n"
-        f"** | [Grup Oficial](t.me/CariTemen_Random)**     |--|     **[Instagram](https://www.instagram.com/arimulyaa_/) | ")     
+        f"** | [Grup Oficial](t.me/CariTemen_Random)**      |--|      **[Instagram](https://www.instagram.com/arimulyaa_/) | ")     
       
 
         
