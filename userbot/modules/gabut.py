@@ -59,7 +59,7 @@ async def pingme(pong):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Pasukan Cabe Cabean**")
+    await typew.edit(f"**Pasukan Cabe Cabean 💦💦**")
     sleep(1)
     await typew.edit(f"**Adel Sangeeann ☑**")
     await typew.edit(f"**Adel Sangeeann ✅**")
