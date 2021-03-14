@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('`**KAMPANG** Berhasil Di Update!`')
+    await event.edit('`**VIRUS** Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('`KAMPANG Di Restart....`')
+    await event.edit('`VIRUS Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Silahkan Tunggu TOLOL!`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#NOTICE \n"
-            "OK BOT KAMPANG Berhasil Di Update")
+            "OK BOT VIRUS Berhasil Di Update")
         await asyncio.sleep(10)
         await event.delete()
 
