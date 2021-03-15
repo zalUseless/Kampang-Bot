@@ -9,7 +9,7 @@
 from datetime import datetime
 
 from speedtest import Speedtest
-from userbot import CMD_HELP, StartTime, ALIVE_NAME
+from userbot import CMD_HELP, StartTime, ALIVE_NAME, DEFAULTUSER
 from userbot.events import register
 import time
 
@@ -92,7 +92,7 @@ async def pingme(pong):
     await pong.edit(" **𝐊𝐚𝐥𝐢𝐚𝐧 𝐒𝐞𝐦𝐮𝐚 𝐊𝐨𝐧𝐭𝐨𝐥...** ")   
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**ㅤㅤ  ≛ 𝙲𝙾𝚁𝙾𝙽𝙰 𝚅𝙸𝚁𝚄𝚂 ≛**\n **▰▱▰▱▰▱▰▱▰▱▰▱▰**\n**╭╼═════════════════╾╮**\n **⌲Ping Virus**  :  %s𝖒𝖘ㅤㅤㅤ⊨〛**\n **⌲Virus Aktif**  :  {uptime} **Dangerㅤ⊨〛**\n**╰╼═════════════════╾╯** " % (duration))              
+    await pong.edit(f"**ㅤㅤ  ≛ 𝙲𝙾𝚁𝙾𝙽𝙰 𝚅𝙸𝚁𝚄𝚂 ≛**\n **▰▱▰▱▰▱▰▱▰▱▰▱▰**\n**╭╼═════════════════╾╮**\n **⌲Ping Virus**  :  %s𝖒𝖘ㅤㅤㅤ⊨〛**\n **⌲Virus Aktif**  :  {uptime} **Dangerㅤ⊨〛**\n**⌲My Boss:** `{DEFAULTUSER}`\n**╰╼═════════════════╾╯** " % (duration))              
 
 
 
