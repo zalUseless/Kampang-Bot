@@ -152,13 +152,13 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Getting Information...`")
     sleep(1)
-    await typew.edit("**𖣘 𝐂𝐎𝐕𝐈𝐃-𝟏𝟗 𝐁𝐎𝐓 𖣘 usage**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Kealayan ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Alay Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
+    await typew.edit("**ㅤㅤ╭▻...╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯...◅╮**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n" f"-> `Penggunaan Sperma ` **{ALIVE_NAME}**:\n" f" •**0 jam - " f"0 menit - 0%**" "\n ◐━─━─━─━─━──━─━─━─━─━◐\n" "-> `Sisa Sperma Bulan Ini`:\n" f" •**9999 jam - 9999 menit " f"- 100%**\n" "╰━━━━━━━━━━━━━━━━━━━━╯"
                      )
 # @mixiologist
 
 
 CMD_HELP.update({
-    "fakedyno":
+    "Just Funny":
     "`.usange`\
 \nUsage: tipu tipu anjeeeng.\
 \n\n`L`\
