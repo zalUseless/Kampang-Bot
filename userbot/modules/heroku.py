@@ -14,6 +14,7 @@ from userbot import (
     HEROKU_APP_NAME,
     HEROKU_API_KEY,
     BOTLOG,
+    ALIVE_NAME,
     BOTLOG_CHATID,
     CMD_HELP)
 from userbot.events import register
@@ -180,11 +181,11 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "ㅤㅤ**╭▻...╰▻𝐁𝐨𝐭 𝐕𝐢𝐫𝐮𝐬◅╯...◅╮**\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
-                f"⌲**𝙿𝚎𝚗𝚐𝚐𝚞𝚗𝚊𝚊𝚗 𝚂𝚙𝚎𝚛𝚖𝚊 {app.name}**:\n"
+                f"⌲**𝙿𝚎𝚗𝚐𝚐𝚞𝚗𝚊𝚊𝚗 𝚂𝚙𝚎𝚛𝚖𝚊 {ALIVE_NAME}**\n"
                 f"    ➥**{AppHours} 𝐉𝐚𝐦 - "
                 f"{AppMinutes} 𝐌𝐞𝐧𝐢𝐭  -  {AppPercentage}%**"
                 "\n ▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰ \n"
-                "⌲**𝚂𝚒𝚜𝚊 𝚂𝚙𝚎𝚛𝚖𝚊 𝙱𝚞𝚕𝚊𝚗 𝙸𝚗𝚒**:\n"
+                "⌲**𝚂𝚒𝚜𝚊 𝚂𝚙𝚎𝚛𝚖𝚊 𝙱𝚞𝚕𝚊𝚗 𝙸𝚗𝚒**\n"
                 f"    ➥**{hours} 𝐉𝐚𝐦 - {minutes} 𝐌𝐞𝐧𝐢𝐭  "
                 f"-  {percentage}%**\n"
                 "╰━━━━━━━━━━━━━━━━━━━━╯"
