@@ -233,7 +233,8 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (      
         f"** ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ \n"      
-        f"**ㅤㅤㅤㅤ≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n\n"  
+        f"**ㅤㅤㅤㅤ≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"  
+        f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱**\n\n"
         f" ㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n\n"
         f"**╭━━━━━━━━━━━━━━━━━━━━╮** \n"
         f"➨⚔ **𝚃𝚑𝚎 𝙺𝚒𝚗𝚐**    :   `{DEFAULTUSER}` \n"
@@ -242,9 +243,9 @@ async def amireallyalive(alive):
         f"➨🛠 **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗**   :   `Versi {version.__version__}` \n"
         f"➨☠ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**      :   `{BOT_VER}` \n"  
         f"**╰━━━━━━━━━━━━━━━━━━━━╯** \n"   
-        f"**ㅤㅤ🔰•PEMILIK•**ㅤ  :  ㅤ**[TUNGAU](t.me/DamnBitchh)** \n"
+        f"ㅤㅤ🔰**•PEMILIK•**ㅤ  :  ㅤ**[TUNGAU](t.me/DamnBitchh)** \n"
         f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱** \n"
-        f"ㅤ**[👥Grup Oficial](t.me/CariTemen_Random)**  |--|   **[👤Instagram](https://www.instagram.com/arimulyaa_/)** ")     
+        f"ㅤㅤ[👥Grup Oficial]ㅤ(t.me/CariTemen_Random)  |--|   ㅤ[👤Instagram](https://www.instagram.com/arimulyaa_/) ")     
       
 
         
