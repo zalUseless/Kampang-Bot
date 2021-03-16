@@ -73,7 +73,7 @@ async def typewriter(typew):
     await typew.edit("**Favorite Girl 💛✅**")
     sleep(1)
     await typew.edit("**Cuteee Girll 🌸☑**")
-    await typew.edit("**Cuteee Girll 🌸☑**")
+    await typew.edit("**Cuteee Girll 🌸✅**")
     sleep(1)
     await typew.edit("**Seringg Lemot Tapi Lucu 👻✅**")
     await typew.edit("**Seringg Lemot Tapi Lucu 👻☑**")
