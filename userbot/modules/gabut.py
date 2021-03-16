@@ -163,14 +163,12 @@ CMD_HELP.update({
 \nUsage: tipu tipu anjeeeng.\
 \n\n`L`\
 \nUsage: Untuk Menjawab Salam.\
-\n\n>`.sagapung`\
+\n\n>`\.sagapung`
     \nUsage: liat aja anak anak tolol.\
+\n\n>`ass`\
+    \nUsage: melakukan salam.\
 \n\n>`.cabean`\
     \nUsage: liat aja anak anak tolol.\
-\n\n>`ass`"
-    \nUsage: melakukan salam.\
-\n\n>`keping`\
-    \nUsage: kecepatan ping.\
-\n\n>`G`\
-    \nUsage: pantun goblok haha."
+\n\n>`.keping`\
+    \nUsage: liat keceptan ping."
 })
