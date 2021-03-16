@@ -172,5 +172,5 @@ CMD_HELP.update({
 "\n\n>`keping`\
     \nUsage: kecepatan ping.\
 "\n\n>`G`\
-    \nUsage: pantun goblok haha. "
+    \nUsage: pantun goblok haha."
 })
