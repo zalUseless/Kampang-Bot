@@ -232,18 +232,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (            
-        f"ㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"  
-        f"ㅤ**▱▰▱▰▱▰▱▰▱▰▱▰**\n\n"
-        f" **𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧.!** \n\n"
-        f"**╭━━━━━━━━━━━━━━━━━━╮** \n"
-        f"➨ `My Boss   :`{DEFAULTUSER}` \n"
-        f"➨ `Username  :`@{user.username}` \n"
-        f"➨ `Phyton    :`Versi {python_version()}` \n"
-        f"➨ `Telethon  :`Versi {version.__version__}` \n"
-        f"➨ `Version   :`{BOT_VER}` \n"  
-        f"**╰━━━━━━━━━━━━━━━━━━╯**\n"   
-        f"ㅤㅤ🔰**•PEMILIK•**ㅤ : ㅤ[TUNGAU](t.me/DamnBitchh) \n"
-        f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱**\n"
+        ㅤㅤㅤㅤf"ㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"  
+        f"ㅤ **▱▰▱▰▱▰▱▰▱▰▱▰**\n\n"
+        f" ㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n\n"
+        f"**╭━━━━━━━━━━━━━━━━━━━━╮** \n"
+        f"➨⚔ **My Boss**  ㅤ :   `{DEFAULTUSER}` \n"
+        f"➨⛓ **Username**   :   `@{user.username}` \n"
+        f"➨🐍 **Python**        :   `Versi {python_version()}` \n"
+        f"➨🛠 **Telethon**   :   `Versi {version.__version__}` \n"
+        f"➨☠ **Version**      :   `{BOT_VER}` \n"  
+        f"**╰━━━━━━━━━━━━━━━━━━━━╯**\n"   
+        f"ㅤㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[TUNGAU](t.me/DamnBitchh) \n"
+        f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱**\n"
         f"ㅤ[👥Grup Oficial](t.me/CariTemen_Random)  |--|  [👤Instagram](https://www.instagram.com/arimulyaa_/)")     
       
 
