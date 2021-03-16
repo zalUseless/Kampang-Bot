@@ -243,9 +243,9 @@ async def amireallyalive(alive):
         f"➨🛠 **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗**   :   `Versi {version.__version__}` \n"
         f"➨☠ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**      :   `{BOT_VER}` \n"  
         f"**╰━━━━━━━━━━━━━━━━━━━━╯** \n"   
-        f"**ㅤㅤ🔰•PEMILIK•**   :   **[TUNGAU](t.me/DamnBitchh)** \n"
+        f"**ㅤㅤ🔰•PEMILIK•ㅤ   :   ㅤ[TUNGAU](t.me/DamnBitchh)** \n"
         f"**▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰** \n"
-        f"ㅤ**[👥Grup Oficial](t.me/CariTemen_Random)**  |--|   **[👤Instagram](https://www.instagram.com/arimulyaa_/)** ")     
+        f"ㅤ**[👥Grup Oficial](t.me/CariTemen_Random)  |--|   [👤Instagram](https://www.instagram.com/arimulyaa_/)** ")     
       
 
         
