@@ -66,6 +66,7 @@ async def typewriter(typew):
     await typew.edit(f"**Capricorn Girl ✨☑**")
     await typew.edit(f"**Capricorn Girl ✨✅**")
     sleep(1)
+    await typew.edit(f"15 Years Old 💛☑**")
     await typew.edit(f"15 Years Old 💛✅**")
     sleep(1)
     await typew.edit(f"Favorite Girl 💛☑**")
@@ -74,7 +75,8 @@ async def typewriter(typew):
     await typew.edit(f"Cuteee Girll 🌸☑**")
     await typew.edit(f"Cuteee Girll 🌸☑**")
     sleep(1)
-    await typew.edit(f"Seringg Lemot Tapi Lucu 👻**")
+    await typew.edit(f"Seringg Lemot Tapi Lucu 👻✅**")
+    await typew.edit(f"Seringg Lemot Tapi Lucu 👻☑**")
     sleep(1)
     await typew.edit(f"Kadang Ngeselin ☑**")
     await typew.edit(f"Kadang Ngeselin ✅**")
@@ -126,16 +128,6 @@ async def typewriter(typew):
     await typew.edit("**Saya BerUsia 18 Tahun😇..**")
     sleep(1)
     await typew.edit("**Salam Kenal Ya,Terimakasih 🙏..**")
-# Owner @Si_Dian
-
-
-@register(outgoing=True, pattern='^G(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
-    sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
 # Owner @Si_Dian
 
 
