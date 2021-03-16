@@ -84,8 +84,10 @@ async def typewriter(typew):
 
 
 @register(outgoing=True, pattern=r"^\.ahh$")
-async def ahh(e):
-    await e.edit(
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await e.edit(f"
         ("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n"
 "⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀\n"
 "⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀\n"
@@ -127,8 +129,10 @@ async def ahh(e):
 
 
 @register(outgoing=True, pattern=r"^\.pikachu$")
-async def pikachu(e):
-    await e.edit(
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await e.edit(f"
         ("⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⣠⣤⣶⣶\n"
 "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⢰⣿⣿⣿⣿\n"
 "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣾⣿⣿⣿⣿\n"
