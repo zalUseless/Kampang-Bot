@@ -54,6 +54,38 @@ async def pingme(pong):
 
                     f"\n ⫸ ᴷᵃᵐᵖᵃⁿᵍ『`{ALIVE_NAME}`』 \n" % (duration))
 
+@register(outgoing=True, pattern='^.kar(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**𝐊𝐚𝐫𝐢𝐧𝐚 𝐓𝐢𝐭𝐚𝐧𝐢𝐚 𝐒𝐚𝐥𝐬𝐚𝐛𝐢𝐥𝐚💛**")
+    sleep(1)
+    await typew.edit(f"**Bidadari Bali ☑**")
+    await typew.edit(f"**Bidadari Bali ✅**")
+    sleep(1)
+    await typew.edit(f"**Capricorn Girl ✨☑**")
+    await typew.edit(f"**Capricorn Girl ✨✅**")
+    sleep(1)
+    await typew.edit(f"15 Years Old 💛✅**")
+    sleep(1)
+    await typew.edit(f"Favorite Girl 💛☑**")
+    await typew.edit(f"Favorite Girl 💛✅**")
+    sleep(1)
+    await typew.edit(f"Cuteee Girll 🌸☑**")
+    await typew.edit(f"Cuteee Girll 🌸☑**")
+    sleep(1)
+    await typew.edit(f"Seringg Lemot Tapi Lucu 👻**")
+    sleep(1)
+    await typew.edit(f"Kadang Ngeselin ☑**")
+    await typew.edit(f"Kadang Ngeselin ✅**")
+    sleep(1)
+    await typew.edit(f"And Call Me Karina 💛**")
+    sleep(1)
+    await typew.edit(f"Thankss All 🙏💛**")
+    sleep(1)
+    await typew.edit(f"I Love Youu ☑💛**")
+    await typew.edit(f"I Love Youu ✅💛**")
+        
 
 @register(outgoing=True, pattern='^.cabean(?: |$)(.*)')
 async def typewriter(typew):
