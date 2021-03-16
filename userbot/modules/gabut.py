@@ -165,12 +165,12 @@ CMD_HELP.update({
 \nUsage: Untuk Menjawab Salam.\
 "\n\n>`.sagapung`\
     \nUsage: liat aja anak anak tolol.\
-"\n\n>`.cabean`"
+"\n\n>`.cabean`\
     \nUsage: liat aja anak anak tolol.\
 "\n\n>`ass`"
     \nUsage: melakukan salam.\
-"\n\n>`keping`"
+"\n\n>`keping`\
     \nUsage: kecepatan ping.\
-"\n\n>`G`"
+"\n\n>`G`\
     \nUsage: pantun goblok haha. "
 })
