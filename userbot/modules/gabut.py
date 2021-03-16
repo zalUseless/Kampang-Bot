@@ -163,7 +163,7 @@ CMD_HELP.update({
 \nUsage: tipu tipu anjeeeng.\
 \n\n`L`\
 \nUsage: Untuk Menjawab Salam.\
-\n\n`\.sagapung`
+\n\n`.sagapung`\
 \nUsage: liat aja anak anak tolol.\
 \n\n`ass`\
 \nUsage: melakukan salam.\
