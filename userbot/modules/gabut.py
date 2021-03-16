@@ -162,15 +162,15 @@ CMD_HELP.update({
     "`.usange`\
 \nUsage: tipu tipu anjeeeng.\
 \n\n`L`\
-\nUsage: Untuk Menjawab Salam."
-})
-"\n\n>`.sagapung`"
-    "\nUsage: liat aja anak anak tolol"
+\nUsage: Untuk Menjawab Salam.\
+"\n\n>`.sagapung`\
+    \nUsage: liat aja anak anak tolol.\
 "\n\n>`.cabean`"
-    "\nUsage: liat aja anak anak tolol"
+    \nUsage: liat aja anak anak tolol.\
 "\n\n>`ass`"
-    "\nUsage: melakukan salam"
+    \nUsage: melakukan salam.\
 "\n\n>`keping`"
-    "\nUsage: kecepatan ping"
+    \nUsage: kecepatan ping.\
 "\n\n>`G`"
-    "\nUsage: pantun goblok haha"
+    \nUsage: pantun goblok haha. "
+})
