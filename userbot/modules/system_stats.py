@@ -231,8 +231,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    output = (      
-        f"** ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ \n"      
+    output = (            
         f"ㅤㅤㅤㅤ**≛ 𝐁𝐎𝐓 𝐕𝐈𝐑𝐔𝐒 ≛** \n"  
         f"ㅤ **▱▰▱▰▱▰▱▰▱▰▱▰**\n\n"
         f" ㅤ**𝐒𝐢𝐚𝐩𝐚𝐩𝐮𝐧 𝐁𝐢𝐬𝐚 𝐉𝐚𝐝𝐢 𝐀𝐩𝐚𝐩𝐮𝐧..!** \n\n"
