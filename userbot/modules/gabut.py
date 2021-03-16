@@ -85,8 +85,8 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**Thankss All 🙏💛**")
     sleep(1)
-    await typew.edit("**I Love Youu ☑💛**")
-    await typew.edit("**I Love Youu ✅💛**")
+    await typew.edit("**I Love Youu 💛☑**")
+    await typew.edit("**I Love Youu 💛✅**")
         
 
 @register(outgoing=True, pattern='^.cabean(?: |$)(.*)')
@@ -188,6 +188,8 @@ CMD_HELP.update({
 \nUsage: Untuk Menjawab Salam.\
 \n\n`.sagapung`\
 \nUsage: liat aja anak anak tolol.\
+\n\n`.kar`\
+\nUsage: my favorit girl.\
 \n\n`ass`\
 \nUsage: melakukan salam.\
 \n\n`.cabean`\
