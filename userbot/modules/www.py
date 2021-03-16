@@ -125,7 +125,7 @@ CMD_HELP.update(
     \nUsage: Shows how long it takes to ping your bot.\
     \n\n`.speed`\
     \nUsage: Does a speedtest and shows the results.\
-    \n\n>`.sping`\
+    \n\n`.sping`\
     \nUsage: melihat kecepatan ping dengan tampilan lain.\
     \n\n`.pong`\
     \nUsage: Shows how long it takes to ping your bot."
