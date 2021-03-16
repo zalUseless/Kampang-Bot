@@ -158,7 +158,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "Just Funny":
+    "Just_Funy":
     "`.usange`\
 \nUsage: tipu tipu anjeeeng.\
 \n\n`L`\
