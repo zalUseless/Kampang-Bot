@@ -75,42 +75,8 @@ async def DeezLoader(event):
         except YouBlockedUserError:
             await event.edit("@DeezLoadBot'Unblok Dulu La Asu.")
             return
-        await bot.send_file(event.chat_id, song, caption=details.text)
+       await bot.send_file(event.chat_id, song, caption=details.text)
 
-# Alvin Gans
-
-
-@register(outgoing=True, pattern="^.tiktod(?: |$)(.*)")
-async def _(event):
-    if event.fwd_from:
-        return
-    d_link = event.pattern_match.group(1)
-    if ".com" not in d_link:
-        await event.edit(
-            "`Berikan Link Video Tiktok Untuk Download Video Tiktok` **(._.)**"
-        )
-    else:
-        await event.edit("```Video Sedang Diproses.....```")
-    chat = "@ttsavebot"
-    async with bot.conversation(chat) as conv:
-        try:
-            msg_start = await conv.send_message("/start")
-            r = await conv.get_response()
-            msg = await conv.send_message(d_link)
-            details = await conv.get_response()
-            video = await conv.get_response()
-            """ - don't spam notif - """
-            await bot.send_read_acknowledge(conv.chat_id)
-        except YouBlockedUserError:
-            await event.edit(
-                "**Error:** `Mohon Buka Blokir` @ttsavebot `Dan Coba Lagi!`"
-            )
-            return
-        await bot.send_file(event.chat_id, video)
-        await event.client.delete_messages(
-            conv.chat_id, [msg_start.id, r.id, msg.id, details.id, video.id]
-        )
-        await event.delete()
 
 
 
@@ -125,9 +91,7 @@ CMD_HELP.update(
         "\nUsage: Download Media Dari Instagram."
         "\n\n>`.dez`"
         "\nUsage: Download Lagu Via Deezloader"
-        "\n\n>`.tiktod`"
-        "\nUsage: Download Tiktok no WM"
-
+        
 
     }
 )
