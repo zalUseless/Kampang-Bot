@@ -75,11 +75,7 @@ async def DeezLoader(event):
         except YouBlockedUserError:
             await event.edit("@DeezLoadBot'Unblok Dulu La Asu.")
             return
-       await bot.send_file(event.chat_id, song, caption=details.text)
-
-
-
-
+        await bot.send_file(event.chat_id, song, caption=details.text)
 
 CMD_HELP.update(
     {
@@ -91,7 +87,7 @@ CMD_HELP.update(
         "\nUsage: Download Media Dari Instagram."
         "\n\n>`.dez`"
         "\nUsage: Download Lagu Via Deezloader"
-        
+
 
     }
 )
